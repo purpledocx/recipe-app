@@ -1,6 +1,6 @@
 <div align="center">
 
-# Confetti Cuisine
+# Recipe App
 
 ### A Node.js & Express web application for booking cooking classes
 
@@ -56,7 +56,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/purpledocx/confetti_cuisine.git](https://github.com/purpledocx/confetti_cuisine.git)
+   git clone [https://github.com/purpledocx/confetti_cuisine.git](https://github.com/purpledocx/recipe-app.git)
    cd confetti_cuisine
 
 ```
