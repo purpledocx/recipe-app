@@ -56,7 +56,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/purpledocx/confetti_cuisine.git](https://github.com/purpledocx/recipe-app.git)
+   git clone https://github.com/purpledocx/recipe-app.git
    cd confetti_cuisine
 
 ```
