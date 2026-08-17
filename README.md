@@ -33,7 +33,7 @@
 | **Runtime & Framework** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="18" height="18" valign="middle" /> [Node.js](https://nodejs.org/) &nbsp;•&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="18" height="18" valign="middle" /> [Express.js](https://expressjs.com/) |
 | **Database & ORM** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="18" height="18" valign="middle" /> [MongoDB](https://www.mongodb.com/) &nbsp;•&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original.svg" width="18" height="18" valign="middle" /> [Mongoose](https://mongoosejs.com/) |
 | **Auth & Security** | 🔐 [Passport.js](https://www.passportjs.org/) (`passport-local-mongoose`) |
-| **Templating & UI** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ejs/ejs-original.svg" width="18" height="18" valign="middle" /> [EJS](https://ejs.co/) (`express-ejs-layouts`) &nbsp;•&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="18" height="18" valign="middle" /> [jQuery](https://jquery.com/) |
+| **Templating & UI** | 📄 [EJS](https://ejs.co/) (`express-ejs-layouts`) &nbsp;•&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="18" height="18" valign="middle" /> [jQuery](https://jquery.com/) |
 | **Real-Time** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" width="18" height="18" valign="middle" /> [Socket.io](https://socket.io/) |
 | **Tooling** | `express-validator` • `morgan` • `connect-flash` |
 
