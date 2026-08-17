@@ -15,31 +15,35 @@
   <img src="https://img.shields.io/badge/Passport.js-00D26A?style=for-the-badge&logo=passport&logoColor=black" alt="Passport.js Badge" />
   <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io Badge" />
   <img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black" alt="EJS Badge" />
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery Badge" />
 </p>
 
 </div>
 
 ---
 
-## 🛠 Tech Stack
+<div align="center">
+
+# Tech Stack
+
+</div>
 
 | Category | Technologies |
 | :--- | :--- |
 | **Runtime & Framework** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="18" height="18" valign="middle" /> [Node.js](https://nodejs.org/) &nbsp;•&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="18" height="18" valign="middle" /> [Express.js](https://expressjs.com/) |
 | **Database & ORM** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="18" height="18" valign="middle" /> [MongoDB](https://www.mongodb.com/) &nbsp;•&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongoose/mongoose-original.svg" width="18" height="18" valign="middle" /> [Mongoose](https://mongoosejs.com/) |
 | **Auth & Security** | 🔐 [Passport.js](https://www.passportjs.org/) (`passport-local-mongoose`) |
-| **Templating** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ejs/ejs-original.svg" width="18" height="18" valign="middle" /> [EJS](https://ejs.co/) (`express-ejs-layouts`) |
+| **Templating & UI** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ejs/ejs-original.svg" width="18" height="18" valign="middle" /> [EJS](https://ejs.co/) (`express-ejs-layouts`) &nbsp;•&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="18" height="18" valign="middle" /> [jQuery](https://jquery.com/) |
 | **Real-Time** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" width="18" height="18" valign="middle" /> [Socket.io](https://socket.io/) |
 | **Tooling** | `express-validator` • `morgan` • `connect-flash` |
 
 ---
-
 ## Features
 
 - **User Authentication:** Secure user registration, login, and session management powered by **Passport.js**.
 - **Book Cooking Classes:** Users can browse available cooking classes and manage their bookings.
 - **Live Community Chat:** Real-time communication powered by **Socket.io**. Chat history is persistently saved to MongoDB, and users automatically see the last 10 messages upon joining.
-- **Dynamic Server-Rendered UI:** Fast rendering and reusable layouts via **EJS**.
+- **Dynamic Server-Rendered UI:** Fast rendering and reusable layouts via **EJS**, enhanced with **jQuery** for smooth client-side DOM manipulation and interactions.
 - **Interactive UI:** Real-time form validation (`express-validator`) and notification popups (`connect-flash`).
 - **Data Seeding:** Built-in seed scripts for rapid local database setup.
 
@@ -57,9 +61,7 @@
 1. **Clone the repository**
    ```bash
    git clone https://github.com/purpledocx/recipe-app.git
-   cd confetti_cuisine
-
-```
+   cd recipe-app
 
 2. **Install dependencies**
 ```bash
@@ -114,7 +116,7 @@ git push heroku master
 confetti_cuisine/
 ├── controllers/       # Request-handling logic
 ├── models/            # Mongoose schemas (Users, Classes, Chat Messages)
-├── public/            # Static assets (CSS, client-side JS including Socket.io client)
+├── public/            # Static assets (CSS, images, client-side JS with jQuery & Socket.io)
 ├── routes/            # Express route definitions
 ├── views/             # Server-rendered EJS templates & layouts
 ├── main.js            # Express & Socket.io server entry point
