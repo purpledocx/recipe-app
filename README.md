@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎉 Confetti Cuisine
+# Confetti Cuisine
 
 ### A Node.js & Express web application for booking cooking classes
 
