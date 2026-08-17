@@ -113,7 +113,7 @@ git push heroku master
 ## Project Structure
 
 ```text
-confetti_cuisine/
+recipe-app/
 ├── controllers/       # Request-handling logic
 ├── models/            # Mongoose schemas (Users, Classes, Chat Messages)
 ├── public/            # Static assets (CSS, images, client-side JS with jQuery & Socket.io)
